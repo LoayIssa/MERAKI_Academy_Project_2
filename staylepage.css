@@ -6,7 +6,7 @@
 }
 body
 {
- /*background-image: url("./imag/de0f4bf6e8075312a6eb20ad7044571a.jpg");*/
+ background-image: url("./imag/de0f4bf6e8075312a6eb20ad7044571a.jpg");
 background-size: cover;
 
 }
@@ -73,7 +73,7 @@ font-size: 20px;
     display: block;
 }
 
-.cardCar{
+.page2{
     display: grid;
        grid-template-columns: 400px 400px 400px; 
        grid-template-rows: 450px 450px 450px; 
@@ -81,7 +81,7 @@ font-size: 20px;
 
     
 }
-.cardCar > div 
+.page2 > div
 {
     margin-left:50px ;
     margin-bottom: 50px;
