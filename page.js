@@ -1,6 +1,5 @@
-$('.slaider').hide()
 $('.page2').hide()
-$('.ooo').show()
+$('.ooo').hide()
 $('.select').hide()
 
 
@@ -9,10 +8,11 @@ $('.select').hide()
     $('.ooo').show()
     $('body').css("background-image","none" )
     $('.select').show()
-
+    $('.slaider').hide()
 
     cardCar()
 }); 
+/* chinge card car and filter */
 
 $("select").on("change", () => {
     if($("#car").val() === "car1"){
@@ -23,7 +23,63 @@ $("select").on("change", () => {
     cardCar2()
 }
 }); 
+/* end */
+/*start slider*/ /*
+const nameCarDiscount = ["Camry" , "marsides" , "bmw"]
+const theDiscount = ["First offer 10% discount for the first 5 customers" , "First offer 10% discount for the first 5 customers" , "First offer 10% discount for the first 5 customers"]
+const DiscountShow = () => {
 
+    for (let i =0 ; i<nameCarDiscount.length ; i++){
+        $('.slaider').append(`<div class= active${i} id =Divslide${i} ></div>`)
+        $(`#Divslide${i}`).append(`<h2>${nameCarDiscount[i]}</h2>`)
+        $(`#Divslide${i}`).append(`<h2>${theDiscount[i]}</h2>`)
+
+        (function sliderShow(){
+            console.log("loay")
+
+            $('active0').each(function (){
+                if($(this).is(':last-child')){
+                    console.log("loay")
+                }
+            })
+
+
+
+
+
+        }).
+
+    }
+}
+ */
+(function autoSlider(){
+  $('.slaider .active').each(function (){
+     if(!$(this).is(':last-child')){
+      $(this).delay(3000).fadeOut(1000, function(){
+          $(this).removeClass('active').next().addClass('active').fadeIn()
+           autoSlider()
+         }); 
+
+      } else {
+
+         $(this).delay(1000).fadeOut(1000 , function(){
+             $(this).removeClass('active')
+             $('.slaider div').eq(0).addClass('active').fadeIn()
+             autoSlider()
+
+         })
+
+      }
+  })   
+
+}());
+
+/* end slider */ 
+
+
+
+
+/* start show all car  */ 
 
 const carName = ["chaverolit" , "gms" , "jep"]
 const carDate = ["2015" , "2016" ,"2017" , "2010"]
@@ -45,9 +101,10 @@ const cardCar = () => {
     }
 }
 
+/* __________end____________ */
 
 
-/* ______________________ */
+/* start function card marsedes  */
 
 const carName1= ["S-Class" , "C-Class" , "E-Class"]
 const carDate1 = ["2019" , "2020" ,"2017" ]
@@ -71,7 +128,8 @@ const cardCar1 = () => {
     }
 
 }
-/* ______________ */
+/* ______end________ */
+/* start car bmw  */ 
 
 const carName2= [" BMW X3" , "BMW X4" , "BMW X6"]
 const carDate2 = ["2021" , "2020" ,"2017" ]
@@ -96,3 +154,4 @@ const cardCar2 = () => {
 
 
 }
+/*_____end_______ */
