@@ -3,13 +3,21 @@ $('.page2').hide()
 $('.ooo').show()
 
 
-/* $("#information").on("click", () => {
+ $("#information").on("click", () => {
     $(".page2").show()
     $('.ooo').show()
     $('body').css("background-image","none" )
 
     cardCar()
-}); */
+}); 
+
+$("#car1").on("click", () => {
+    $(".page2").show()
+    $('.ooo').show()
+    $('body').css("background-image","none" )
+
+    cardCar1();
+}); 
 
 
 const carName = ["chaverolit" , "gms" , "jep"]
@@ -31,7 +39,6 @@ const cardCar = () => {
     
     }
 }
-cardCar();
 
 
 
@@ -62,4 +69,3 @@ const cardCar1 = () => {
 function myFunction() {
     setTimeout(function(){ cardCar1(); }, 3000);
   }
-  myFunction()
