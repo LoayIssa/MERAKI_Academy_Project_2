@@ -49,10 +49,10 @@ const cardCar = () => {
 
 /* ______________________ */
 
-const carName1= ["chaverolit" , "gms" , "jep"]
-const carDate1 = ["2015" , "2016" ,"2017" , "2010"]
-const carClore1=["red" , "gren" ,"black" ,"red"]
-const image1 = ["./imag/2015-Dodge-Charger-Vancouver-Hellcat.jpg"   ]
+const carName1= ["S-Class" , "C-Class" , "E-Class"]
+const carDate1 = ["2019" , "2020" ,"2017" ]
+const carClore1=["black" , "gray" ,"red" ]
+const image1 = ["./imag/مرسيدس بنز اس - كلاس 2019.jpg" , "./imag/c-class.jpg" , "./imag/مرسيدس بنز اي - كلاس 2019.jpg"   ]
 
 const cardCar1 = () => {
     $(".page2").show()
@@ -63,9 +63,9 @@ const cardCar1 = () => {
         $(`#chcard${i}`).append(`<img src='${image1[i]}' alt='${image1[i]} photo'>`)
         
         $(`#chcard${i}`).append(`<div class=info id='infoCar${i}' ></div>`)
-        $(`#infoCar${i}`).append(`<h1>${carName[i]}</h1>`)
-        $(`#infoCar${i}`).append(`<p>${carDate[i]}</p>`)
-        $(`#infoCar${i}`).append(`<p>${carClore[i]}</p>`)
+        $(`#infoCar${i}`).append(`<h1>${carName1[i]}</h1>`)
+        $(`#infoCar${i}`).append(`<p>${carDate1[i]}</p>`)
+        $(`#infoCar${i}`).append(`<p>${carClore1[i]}</p>`)
         
 
     }
@@ -73,10 +73,10 @@ const cardCar1 = () => {
 }
 /* ______________ */
 
-const carName2= ["chaverolit" , "gms" , "jep"]
-const carDate2 = ["2015" , "2016" ,"2017" , "2010"]
-const carClore3=["red" , "gren" ,"black" ,"red"]
-const image3 = ["" ,"./imag/2015-Dodge-Charger-Vancouver-Hellcat.jpg"  ]
+const carName2= [" BMW X3" , "BMW X4" , "BMW X6"]
+const carDate2 = ["2021" , "2020" ,"2017" ]
+const carClore2=["black" , "white" ,"red"]
+const image2 = ["./imag/bmw x3.jpg" ,"./imag/bmw x4.jpg" , "./imag/bmw x6.jpg"  ]
 
 const cardCar2 = () => {
     $(".page2").show()
@@ -87,9 +87,9 @@ const cardCar2 = () => {
         $(`#chcard${i}`).append(`<img src='${image2[i]}' alt='${image2[i]} photo'>`)
         
         $(`#chcard${i}`).append(`<div class=info id='infoCar${i}' ></div>`)
-        $(`#infoCar${i}`).append(`<h1>${carName[i]}</h1>`)
-        $(`#infoCar${i}`).append(`<p>${carDate[i]}</p>`)
-        $(`#infoCar${i}`).append(`<p>${carClore[i]}</p>`)
+        $(`#infoCar${i}`).append(`<h1>${carName2[i]}</h1>`)
+        $(`#infoCar${i}`).append(`<p>${carDate2[i]}</p>`)
+        $(`#infoCar${i}`).append(`<p>${carClore2[i]}</p>`)
         
 
     }
