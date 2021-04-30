@@ -67,6 +67,12 @@ font-size: 20px;
     
 }
 
+.slaider h2  , .slaider p{
+    font-size: 20px;
+
+}
+
+
 .slaider > div 
 {
     display: none;
@@ -89,7 +95,7 @@ font-size: 20px;
 }
 .imaSla .imag {
     width: 30%;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .imaSla .imag img 
@@ -101,8 +107,8 @@ margin-top: 100px;
 }
 
 .buton {
-    margin-left: 28%;
-    margin-top: 3%;
+    margin-left: 27%;
+    margin-top: 0;
 }
 .buton #carShow {
     background-color:#9BB9BF ;

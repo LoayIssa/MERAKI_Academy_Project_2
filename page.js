@@ -16,6 +16,12 @@ $('.select').hide()
 /* chinge card car and filter */
 
 $("select").on("change", () => {
+
+    if($("#all").val() === "all"){
+        cardCar() 
+    }
+
+
     if($("#car").val() === "car1"){
         cardCar1()
    }
@@ -25,34 +31,8 @@ $("select").on("change", () => {
 }
 }); 
 /* end */
-/*start slider*/ /*
-const nameCarDiscount = ["Camry" , "marsides" , "bmw"]
-const theDiscount = ["First offer 10% discount for the first 5 customers" , "First offer 10% discount for the first 5 customers" , "First offer 10% discount for the first 5 customers"]
-const DiscountShow = () => {
 
-    for (let i =0 ; i<nameCarDiscount.length ; i++){
-        $('.slaider').append(`<div class= active${i} id =Divslide${i} ></div>`)
-        $(`#Divslide${i}`).append(`<h2>${nameCarDiscount[i]}</h2>`)
-        $(`#Divslide${i}`).append(`<h2>${theDiscount[i]}</h2>`)
-
-        (function sliderShow(){
-            console.log("loay")
-
-            $('active0').each(function (){
-                if($(this).is(':last-child')){
-                    console.log("loay")
-                }
-            })
-
-
-
-
-
-        }).
-
-    }
-}
- */
+/* start slider */
 (function autoSlider(){
   $('.slaider .active').each(function (){
      if(!$(this).is(':last-child')){
@@ -63,7 +43,7 @@ const DiscountShow = () => {
 
       } else {
 
-         $(this).delay(1000).fadeOut(1000 , function(){
+         $(this).delay(3000).fadeOut(1000 , function(){
              $(this).removeClass('active')
              $('.slaider div').eq(0).addClass('active').fadeIn()
              autoSlider()
