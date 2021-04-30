@@ -22,7 +22,10 @@ padding: 0;
 .page1 .navbar 
 {
     overflow: hidden;  
-    background-color: #9BB9BF;
+   /* background-color: #1A2241; */ 
+   border-top: 2px solid #1A2241 ;
+   border-bottom: 2px solid #1A2241 ;
+
     width: 90%;
     margin: auto;
 
@@ -31,7 +34,7 @@ padding: 0;
 .page1 .navbar h2
 {
     float: left;
-    color: #1A0101;
+    color: #1A2241;
 }
 
 
@@ -49,7 +52,8 @@ font-size: 20px;
     padding-left: 15px;
     float:left;
     display:inline-block;
-    color: #1A0101;
+    color: #1A2241;
+    border-left: 2px solid #1A2241 ;
 }
 
 .slaider 
@@ -62,7 +66,7 @@ font-size: 20px;
     width:50%;
     padding: 10px;
     text-align: center;
-    color: #1A0101;
+    color: #1A2241;
 
     
 }
@@ -111,19 +115,18 @@ margin-top: 100px;
     margin-top: 0;
 }
 .buton #carShow {
-    background-color:#9BB9BF ;
+    background-color:#1A2241 ;
     cursor: pointer;
     padding: 10px;
-    border: 1px solid  #4C6C73;
+    border: 1px solid  #77A0EE;
     width: 150px;
     border-radius: 10px;
-    color: #1A0101;
+    color: #F5F9FC;
     text-align: center;
     font-size: large; 
 }
 .buton #carShow:hover {
     opacity: 0.9;
-    background-color: #9BB9BF;
 }
 
 
@@ -141,6 +144,7 @@ margin-top: 100px;
     margin-bottom: 20px;
     border: 2px solid black;
     margin-top: 5%;
+
 }
 
 .page2 > div img 
@@ -149,11 +153,39 @@ margin-top: 100px;
     height: 50%;
 }
 
+.info {
+
+
+}
+
 .info p , .info h1
 {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px 0 0 10px;
+    color:#1A2241 ;
 }
+
+.select 
+{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.select #car 
+{
+    background-color: #1A2241;
+    width: 150px;
+    color: #F5F9FC;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+.select #car  option 
+{
+    font-size: 15px;
+    color: #F5F9FC;
+
+}
+
 
 
 

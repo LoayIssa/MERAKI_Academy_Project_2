@@ -62,10 +62,11 @@ $("select").on("change", () => {
 
 /* start show all car  */ 
 
-const carName = ["chaverolit" , "gms" , "jep" , "chaverolit" , "gms" , "jep"]
-const carDate = ["2015" , "2016" ,"2017" , "2010"]
-const carClore=["red" , "gren" ,"black" ,"red" ,  "gren" ,"black" ]
-const image = ["./imag/2015-Dodge-Charger-Vancouver-Hellcat.jpg" , "./imag/51859.jpg" , "./imag/de0f4bf6e8075312a6eb20ad7044571a.jpg" , "./imag/2015-Dodge-Charger-Vancouver-Hellcat.jpg" , "./imag/51859.jpg" , "./imag/de0f4bf6e8075312a6eb20ad7044571a.jpg" ]
+const carName = ["Hyundai Sonata" , "hyundai ioniq" , " kia optima " , "S-Class" , "marcides s500" , "BMW X6"]
+
+const carDate = [" model :2020" , "model :2017" ,"model :2019" , "model:2019" , "model:2016" , "model:2017"]
+const carClore=["color: Silver" , "color: white" ,"color: white " ,"color: white " ,  "color: black " ," color: black" ]
+const image = ["./imag/hyundai.jpg" , "./imag/hyundai ioniq.jpg" , "./imag/2020 kia optima.webp" , "./imag/marcides S-Class.jpg" , "./imag/marcides s500.jpg" , "./imag/bmw x6.jpg" ]
 
 const cardCar = () => {
     $(".page2").show()
@@ -87,10 +88,10 @@ const cardCar = () => {
 
 /* start function card marsedes  */
 
-const carName1= ["S-Class" , "C-Class" , "E-Class"]
-const carDate1 = ["2019" , "2020" ,"2017" ]
-const carClore1=["black" , "gray" ,"red" ]
-const image1 = ["./imag/مرسيدس بنز اس - كلاس 2019.jpg" , "./imag/c-class.jpg" , "./imag/مرسيدس بنز اي - كلاس 2019.jpg"   ]
+const carName1= ["S-Class" , "marcides s500" , "marcides s500"]
+const carDate1 = ["model:2019" , "model:2021" ,"model:2016" ]
+const carClore1=["color: white" , "color: black" ,"color: black " ]
+const image1 = ["./imag/marcides S-Class.jpg" , "./imag/s500-2020.jpg" , "./imag/marcides s500.jpg"   ]
 
 const cardCar1 = () => {
     $(".page2").show()
@@ -113,8 +114,8 @@ const cardCar1 = () => {
 /* start car bmw  */ 
 
 const carName2= [" BMW X3" , "BMW X4" , "BMW X6"]
-const carDate2 = ["2021" , "2020" ,"2017" ]
-const carClore2=["black" , "white" ,"red"]
+const carDate2 = ["model :2017" , "model :2019" ,"model :2020" ]
+const carClore2=["color: black" , "color:white" ,"color: black"]
 const image2 = ["./imag/bmw x3.jpg" ,"./imag/bmw x4.jpg" , "./imag/bmw x6.jpg"  ]
 
 const cardCar2 = () => {
