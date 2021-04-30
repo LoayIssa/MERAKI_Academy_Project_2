@@ -3,9 +3,10 @@ $('.ooo').hide()
 $('.select').hide()
 
 
- $("#information").on("click", () => {
+ $("#carShow").on("click", () => {
+     $(".imaSla").hide()
+     $(".buton").hide()
     $(".page2").show()
-    $('.ooo').show()
     $('body').css("background-image","none" )
     $('.select').show()
     $('.slaider').hide()
@@ -81,10 +82,10 @@ const DiscountShow = () => {
 
 /* start show all car  */ 
 
-const carName = ["chaverolit" , "gms" , "jep"]
+const carName = ["chaverolit" , "gms" , "jep" , "chaverolit" , "gms" , "jep"]
 const carDate = ["2015" , "2016" ,"2017" , "2010"]
-const carClore=["red" , "gren" ,"black" ,"red"]
-const image = ["./imag/2015-Dodge-Charger-Vancouver-Hellcat.jpg" , "./imag/51859.jpg" , "./imag/de0f4bf6e8075312a6eb20ad7044571a.jpg" ]
+const carClore=["red" , "gren" ,"black" ,"red" ,  "gren" ,"black" ]
+const image = ["./imag/2015-Dodge-Charger-Vancouver-Hellcat.jpg" , "./imag/51859.jpg" , "./imag/de0f4bf6e8075312a6eb20ad7044571a.jpg" , "./imag/2015-Dodge-Charger-Vancouver-Hellcat.jpg" , "./imag/51859.jpg" , "./imag/de0f4bf6e8075312a6eb20ad7044571a.jpg" ]
 
 const cardCar = () => {
     $(".page2").show()
