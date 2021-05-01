@@ -186,6 +186,49 @@ margin-top: 100px;
 
 }
 
+/*start slaider imag */
+
+.slider-inner 
+{
+   
+    display: flex;
+    
+}
+
+
+
+.slider-inner img
+{
+    width: 500px;
+    height: 400px;
+    display: none;
+}
+
+.slider-inner .active , .slider-inner .next
+
+{
+    display: block;
+}
+.prev 
+{
+    margin-top: 180px;
+    cursor: pointer;
+    float: left;
+}
+
+#imag {
+    height: 60px;
+    width: 50px;
+    cursor: pointer;
+    margin: 130px 0;
+    float: right;
+    position: relative;
+    bottom: 352px;
+    right: 500px;
+
+
+}
+
 
 
 

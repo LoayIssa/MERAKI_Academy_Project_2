@@ -1,5 +1,5 @@
 $('.page2').hide()
-$('.ooo').hide()
+$('.imaSla').hide()
 $('.select').hide()
 
 
@@ -137,3 +137,29 @@ const cardCar2 = () => {
 
 }
 /*_____end_______ */
+
+
+/* start slider imag  */
+$('.next').on('click', function(){
+    let currentImg = $('.active');
+    let nextImg = currentImg.next();
+
+    if(nextImg.length){
+      currentImg.removeClass('active')
+      nextImg.addClass('active')
+    }
+  });
+
+  $('.prev').on('click', function(){
+    let currentImg = $('.active');
+    let prevImg = currentImg.prev();
+
+    if(prevImg.length){
+      currentImg.removeClass('active')
+      prevImg.addClass('active')
+    }
+  });
+
+/* end slider imag  */
+
+
