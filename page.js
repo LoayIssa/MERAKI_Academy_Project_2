@@ -1,5 +1,5 @@
 $('.page2').hide()
-$('.imaSla').hide()
+$('.slider-outer').hide()
 $('.select').hide()
 
 
@@ -79,6 +79,10 @@ const cardCar = () => {
         $(`#infoCar${i}`).append(`<h1>${carName[i]}</h1>`)
         $(`#infoCar${i}`).append(`<p>${carDate[i]}</p>`)
         $(`#infoCar${i}`).append(`<p>${carClore[i]}</p>`)
+        $(`#infoCar${i}`).append(`<button onclick='fun1()' class=viewImag >View images</button>`)
+       
+
+
     
     }
 }
@@ -105,7 +109,7 @@ const cardCar1 = () => {
         $(`#infoCar${i}`).append(`<h1>${carName1[i]}</h1>`)
         $(`#infoCar${i}`).append(`<p>${carDate1[i]}</p>`)
         $(`#infoCar${i}`).append(`<p>${carClore1[i]}</p>`)
-        
+        $(`#infoCar${i}`).append(`<button  class=viewImag >View images</button>`)
 
     }
 
@@ -130,8 +134,7 @@ const cardCar2 = () => {
         $(`#infoCar${i}`).append(`<h1>${carName2[i]}</h1>`)
         $(`#infoCar${i}`).append(`<p>${carDate2[i]}</p>`)
         $(`#infoCar${i}`).append(`<p>${carClore2[i]}</p>`)
-        
-
+        $(`#infoCar${i}`).append(`<button class=viewImag>View images</button>`)
     }
 
 
@@ -161,5 +164,28 @@ $('.next').on('click', function(){
   });
 
 /* end slider imag  */
+
+/* show viwe imag */
+/*$('.viewImag').on('click', function(){
+
+    $('.page2').hide()
+    $('.slider-outer').show()
+    
+    
+  })*/
+/* show viwe imag */
+
+  const fun1 = () => {
+      $('.imaSla').hide()
+      $(".page2").hide()
+      $(".select").hide()
+
+      $('.buton').show()
+      $('.slider-outer').show()
+
+    
+  }
+
+  /* end fun */
 
 

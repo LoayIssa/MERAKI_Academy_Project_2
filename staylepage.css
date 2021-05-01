@@ -22,10 +22,7 @@ padding: 0;
 .page1 .navbar 
 {
     overflow: hidden;  
-   /* background-color: #1A2241; */ 
-   border-top: 2px solid #1A2241 ;
-   border-bottom: 2px solid #1A2241 ;
-
+    background-color: #1A2241; 
     width: 90%;
     margin: auto;
 
@@ -34,7 +31,7 @@ padding: 0;
 .page1 .navbar h2
 {
     float: left;
-    color: #1A2241;
+    color: #FFFFFF;
 }
 
 
@@ -52,8 +49,9 @@ font-size: 20px;
     padding-left: 15px;
     float:left;
     display:inline-block;
-    color: #1A2241;
-    border-left: 2px solid #1A2241 ;
+    color: #FFFFFF;
+    cursor: pointer;
+
 }
 
 .slaider 
@@ -162,6 +160,20 @@ margin-top: 100px;
 {
     margin: 5px 0 0 10px;
     color:#1A2241 ;
+}
+
+.info button {
+
+    background-color:#1A2241 ;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0 0 5px;
+    border: 1px solid  #77A0EE;
+    width: 150px;
+    border-radius: 10px;
+    color: #F5F9FC;
+    text-align: center;
+
 }
 
 .select 
