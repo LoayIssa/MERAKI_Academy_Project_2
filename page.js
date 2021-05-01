@@ -13,6 +13,13 @@ $('.select').hide()
 
     cardCar()
 }); 
+
+$('#home').on("click" , ()=>{
+    location.reload()
+
+})
+
+
 /* chinge card car and filter */
 
 $("select").on("change", () => {
