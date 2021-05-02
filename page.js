@@ -209,8 +209,19 @@ $('.login').append('<label for="psw"><b>Password</b></label>')
 $('.login').append('<type="password" placeholder="Enter Password" name="psw" >') 
 $('.login').append('<button  type="submit" class="registerbtn">Login </button>') 
 
-
 }
+register()
+$('.page3').hide()
+
+$("#contact").on("click", () => {
+    $(".imaSla").hide()
+    $(".buton").hide()
+    $(".page2").hide()
+    $('.select').hide()
+    $('.slaider').hide()
+    $('.page3').show()
+
+}); 
 
 
 /* end create page 3 login */ 
