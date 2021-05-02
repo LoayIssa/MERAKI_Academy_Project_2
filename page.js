@@ -4,8 +4,8 @@ $('.select').hide()
 
 
  $("#carShow").on("click", () => {
-     $(".imaSla").hide()
-     $(".buton").hide()
+    $(".imaSla").hide()
+    $(".buton").hide()
     $(".page2").show()
     $('body').css("background-image","none" )
     $('.select').show()

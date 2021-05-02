@@ -6,7 +6,6 @@
 }
 body
 {
-  /* background-image: url("./imag/de0f4bf6e8075312a6eb20ad7044571a.jpg"); */
 background-size: cover;
 margin: 0;
 padding: 0;
@@ -86,6 +85,7 @@ font-size: 20px;
 
 .slaider h2  , .slaider p{
     font-size: 20px;
+    font-family: cursive;
 
 }
 
@@ -280,9 +280,300 @@ margin-top: 100px;
     position: relative;
     bottom: 352px;
     right: 400px;
+}
+
+@media screen and (max-width:768px)  {
+    .countainer  {
+
+    width: 85%;
+    margin: auto;}
+
+
+    body{
+
+   background-size: cover;
+   margin: 0;
+   padding: 0;}
+
+
+ .page1{     
+
+    margin: auto; }
+
+  .page1 .navbar {
+
+    overflow: hidden;  
+    background-color: #202126; 
+    width: 100%;
+    margin: auto;}
+
+  .page1 .navbar h2{
+
+    float: left;
+    color: fff;
+    border: 1px solid #0388A6;
+    padding: 3px 15px 3px 15px;
+    border-radius: 10px 10px;
+    text-transform: capitalize;}
+
+    
+
+ .page1 .navbar h2 span {
+    color: #F20544; }
+
+
+ .navbar ul {
+ 
+ list-style-type: none;
+ padding-left: 0;
+ overflow: hidden;
+ float: right;
+ font-size: 15px;
+ margin-top: 30px;}
+
+
+ .navbar ul li{
+ 
+    margin-left: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    float: left;
+    display: inline-block;
+    color: #FFFFFF;
+    border: 1px solid #0388A6;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;}
+
+
+
+.navbar ul li:hover{
+
+    color: #F20544;
+    }
+
+ .slaider {
+
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    margin-left: 10px;
+    overflow: 0.5;
+    width:50%;
+    padding: 10px;
+    text-align: center;
+    color: #1A2241; }
+
+    
+
+
+   .slaider h2  , .slaider p{
+    font-size: 15px;
+    font-family: cursive; }
+
+
+
+
+   .slaider > div {
+
+    display: none;}
+
+
+
+
+   .slaider .active  {
+
+    display: block;}
+
+
+   .imaSla {
+    display: flex;}
+
+
+   .imaSla .slaider{
+
+    width: 60%;}
+
+
+ .imaSla .slaider p
+ {
+     font-weight: bold;
+ }
+ .imaSla .slaider p span
+ {
+  color: #F20544;
+   
+ }
+ .imaSla .imag {
+    width: 40%;
+    margin: 100px 0 0 50px;
+
+ }
+
+ .imaSla .imag img 
+ {
+    
+ width: 80%;
+ border-radius: 20px ;
+ margin-top: 100px;
+ }
+
+ .buton {
+    margin-left: 27%;
+    margin-top: 0;
+}
+.buton #carShow {
+    background-color: #202126;
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 150px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    position: relative;
+    right: 70px;
+    bottom: 30px;
 
 
 }
+.buton #carShow:hover {
+    opacity: 0.9;
+}
+
+
+.page2{
+    display: grid;
+    grid-template-columns: 330px 330px;
+    grid-template-rows: 380px 380px;
+    margin: 0px 0 0 30px;
+}
+.ch {
+    margin-left:50px ;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    margin-top: 5%;
+
+}
+
+.page2 > div img 
+{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+.info p , .info h1
+{
+    margin: 5px 10px;
+    color: #202126;
+    text-transform: lowercase;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.info button {
+
+    background-color: #202126;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px 0 0 5px;
+    width: 100px;
+    border-radius: 10px;
+    color: #F5F9FC;
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+
+.info button:hover 
+{
+    opacity: 0.9;
+}
+
+.select 
+{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.select #car 
+{
+    background-color: #202126;
+    width: 100px;
+    color: #F5F9FC;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.select #car  option 
+{
+    font-size: 15px;
+    color: #F5F9FC;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+
+/*start slaider imag */
+
+.slider-outer 
+{
+    margin: 50px 0 40px 0;
+    position: relative;
+    right: 132px;
+}
+
+
+.slider-inner 
+{
+    display: flex;
+}
+
+.slider-inner img
+{
+    width: 400px;
+    height: 300px;
+    display: none;
+}
+
+.slider-inner .active , .slider-inner .next
+{
+    display: block;
+}
+
+.prev 
+{
+    margin-top: 134px;
+    cursor: pointer;
+    margin-right: 10px;
+    float: left;
+}
+
+
+
+
+
+#imag {
+    height: 60px;
+    width: 52px;
+    cursor: pointer;
+    margin: 130px 0;
+    float: right;
+    position: relative;
+    bottom: 297px;
+    right: 0;
+
+}
+}
+
+
+  
+ 
 
 
 
