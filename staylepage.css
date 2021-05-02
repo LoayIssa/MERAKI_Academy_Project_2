@@ -282,6 +282,75 @@ margin-top: 100px;
     right: 400px;
 }
 
+/* start page3 */
+.page3 
+{
+    display: flex;
+    margin: 5% 0 0 5%;
+}
+
+
+.contact {
+    width: 45%;
+    border-right: 1px solid #ddd;
+}
+
+.register  , .login
+{
+    width: 45%;
+    margin-left: 20px;
+}
+
+.register input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .register input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+
+  .register button , .login button  {
+
+    background-color:#1A2241 ;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0 0 5px;
+    border: 1px solid  #77A0EE;
+    width: 150px;
+    border-radius: 10px;
+    color: #F5F9FC;
+    text-align: center;
+    text-transform: capitalize;
+
+  }
+
+  .login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+
+  
+
+
+/* end  page3 */
+
+ 
+
+/* start media max 768px */
+
 @media screen and (max-width:768px)  {
     .countainer  {
 

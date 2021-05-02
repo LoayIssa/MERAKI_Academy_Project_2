@@ -185,6 +185,37 @@ const ViewShowImage= () => {
   
 }
 
+
+/* start create page 3 login */ 
+const register = () => {
+
+ $('.page3').append('<div class="contact"></div>') 
+$('.contact').append('<h1> Car Showroom </h1>')
+$('.contact').append('<p> The exhibition was established in 2000. We specialize in the best offers and the lowest prices for selling cars  </p>')
+$('.contact').append('<p>Email:Car-Showroom@gmail.com <br> phone number: 962788850001   </p>')
+$('.page3').append('<div class="register"></div>')
+$('.register').append('<label for="email"><b>Email</b></label>') 
+$('.register').append('<input type="text" placeholder="Enter Email" name="email" id="email" >') 
+$('.register').append('<label for="psw"><b>Password</b></label>') 
+$('.register').append('<input type="password" placeholder="Enter Password" name="psw" id="psw" >') 
+$('.register').append('<label for="psw-repeat"><b>Repeat Password</b></label>') 
+$('.register').append('<input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" >') 
+$('.register').append('<button type="submit" class="registerbtn">Register</button>') 
+$('.register').append('<button id="login" type="submit" class="registerbtn">Login </button>') 
+$('.page3').append('<div class="Login "></div>')
+$('.login').append('<label for="uname"><b>Username</b></label>') 
+$('.login').append('<input type="text" placeholder="Enter Username" name="uname" >') 
+$('.login').append('<label for="psw"><b>Password</b></label>') 
+$('.login').append('<type="password" placeholder="Enter Password" name="psw" >') 
+$('.login').append('<button  type="submit" class="registerbtn">Login </button>') 
+
+
+}
+
+
+/* end create page 3 login */ 
+
+
   /* end fun */
 
 
