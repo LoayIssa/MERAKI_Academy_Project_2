@@ -204,11 +204,7 @@ $('.register').append('<input type="password" placeholder="Repeat Password" name
 $('.register').append('<button type="submit" class="registerbtn">Register</button>') 
 $('.register').append('<button id="login" type="submit" class="registerbtn">Login </button>') 
 $('.page3').append('<div class="Login "></div>')
-$('.login').append('<label for="uname"><b>Username</b></label>') 
-$('.login').append('<input type="text" placeholder="Enter Username" name="uname" >') 
-$('.login').append('<label for="psw"><b>Password</b></label>') 
-$('.login').append('<type="password" placeholder="Enter Password" name="psw" >') 
-$('.login').append('<button  type="submit" class="registerbtn">Login </button>') 
+
 
 }
 register()
