@@ -221,6 +221,7 @@ $("#contact").on("click", () => {
     $(".page2").hide()
     $('.select').hide()
     $('.slaider').hide()
+    $(".page4").hide()
     $('.page3').show()
 
 }); 

@@ -314,6 +314,7 @@ margin-top: 100px;
 .contact h2 , .contact p 
 {
 font-weight: bold;
+color: #1A2241;
 
 }
 
@@ -392,7 +393,7 @@ font-weight: bold;
 
 .page4 .label {
     display: block;
-    color: #F20544;
+    color: #1A2241;
 }
 
 .page4 button {
@@ -652,6 +653,18 @@ font-weight: bold;
 
 }
 
+.select #addCar {
+    background-color: #202126;
+    cursor: pointer;
+    padding: 8px 15px;
+    margin: 10px 0 0 5px;
+    width: 140px;
+    border-radius: 10px;
+    color: #F5F9FC;
+    text-align: center;
+    text-transform: capitalize;
+} 
+
 /*start slaider imag */
 
 .slider-outer 
@@ -753,7 +766,7 @@ font-weight: bold;
   }
   
 
-  .register button , .login button  {
+  .register button  {
 
     background-color: #202126;
     cursor: pointer;
@@ -776,6 +789,40 @@ font-weight: bold;
     box-sizing: border-box;
   }
   
+  /* start page4  */
+.page4 {
+
+    margin: 50px 0 0 50px;
+
+}
+
+.page4  input[type=text] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.page4 .label {
+    display: block;
+    color: #1A2241;
+}
+
+.page4 button {
+    background-color: #202126;
+    cursor: pointer;
+    padding: 8px 15px;
+    margin: 10px 0 0 5px;
+    width: 140px;
+    border-radius: 10px;
+    color: #F5F9FC;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+} 
+
 
   
 
@@ -1029,6 +1076,20 @@ font-weight: bold;
 
 }
 
+.select #addCar {
+    background-color: #202126;
+    cursor: pointer;
+    padding: 8px 15px;
+    margin: 10px 0 0 5px;
+    width: 120px;
+    border-radius: 10px;
+    color: #F5F9FC;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
 /*start slaider imag */
 
 .slider-outer 
@@ -1141,7 +1202,7 @@ font-weight: bold;
   }
   
 
-  .register button , .login button  {
+  .register button   {
 
     background-color: #202126;
     cursor: pointer;
@@ -1163,6 +1224,40 @@ font-weight: bold;
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
+  /* start page4  */
+.page4 {
+
+    margin: 50px 0 0 50px;
+
+}
+
+.page4  input[type=text] {
+    width: 85%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1; 
+}
+
+.page4 .label {
+    display: block;
+    color: #1A2241;
+}
+
+.page4 button {
+    background-color: #202126;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px 0 0 5px;
+    width: 100px;
+    border-radius: 10px;
+    color: #F5F9FC;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+} 
+
   
 
 }
