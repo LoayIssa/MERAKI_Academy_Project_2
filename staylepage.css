@@ -887,16 +887,15 @@ font-weight: bold;
     background-color: #202126;
     cursor: pointer;
     padding: 5px 10px;
-    width: 150px;
+    width: 120px;
     border-radius: 10px;
     color: #fff;
     text-align: center;
     font-size: 15px;
     text-transform: capitalize;
     position: relative;
-    bottom: 185px;
-    margin-left: 15px;
-
+    bottom: 200px;
+    margin-left: 100px;
 
 }
 .buton #carShow:hover {
@@ -906,23 +905,24 @@ font-weight: bold;
 
 .page2{
     display: grid;
-    grid-template-columns: 330px 330px;
-    grid-template-rows: 380px 380px;
-    margin: 0px 0 0 30px;
-}
-.ch {
-    margin-left:50px ;
+    grid-template-columns: 310px;
+    grid-template-rows: 340px;
+    margin: 0px 0 0 50px;
+
+ }
+ .ch {
+    margin-left: 50px;
     margin-bottom: 20px;
     border: 2px solid black;
-    margin-top: 5%;
+    margin-top: 10px;
 
-}
+ }
 
-.page2 > div img 
-{
+ .page2 > div img 
+ {
     width: 100%;
     height: 50%;
-}
+ }
 
 
 
@@ -1029,29 +1029,40 @@ font-weight: bold;
     bottom: 297px;
     right: 0;
 
-}
+ }
 
  /* start page3 */
  .page3 
  {
     display: flex;
-    margin: 5% 0 0 5%;
+    flex-direction: column;
  }
 
 
  .contact {
-    width: 48%;
-    border-right: 1px solid #ddd;
- }
- .contact h2 , .contact p 
- {
- font-weight: bold;
+    width: 95%;
+    border-bottom: 1px solid #ddd;
+    border-right: none;
 
+    margin-bottom: 20px;
+ }
+ .contact h1 
+ {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+ }
+  .contact p 
+ {
+
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
  }
 
- .register  , .login
+ .register  
  {
-    width: 50%;
+    width: 90%;
     margin-left: 20px;
  }
 
