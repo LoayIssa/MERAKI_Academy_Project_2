@@ -233,14 +233,19 @@ $("#addCar").on("click", () => {
     $(".page2").hide()
     $('.select').hide()
     $('.page4').append('<div class="addCar"></div>') 
+    $('.addCar').append('<label for="car-Name"><b>car Name</b></label>') 
     $('.addCar').append('<input type="text" placeholder="carName" id="add1" >') 
+    $('.addCar').append('<label for="car-date"><b>car date</b></label>') 
     $('.addCar').append('<input type="text" placeholder="cardate" id="add2" >') 
-    $('.addCar').append('<input type="text" placeholder="carcolor" id="add3" >') 
+    $('.addCar').append('<label for="car-color"><b>car color</b></label>') 
+    $('.addCar').append('<input type="text" placeholder="carcolor" id="add3" >')
+    $('.addCar').append('<label for="imag"><b>imag</b></label>')  
     $('.addCar').append('<input type="text" placeholder="imag" id="add4" >') 
+    $('.addCar').append('<label for="add-cart"><b>add car</b></label>') 
     $('.addCar').append('<button  class="AddInfo" onclick = "AddCar()" >add car information </button>') 
 
    }); 
-   
+
 const AddCar = ()=> {
     carName.push($('#add1').val())
     carDate.push($('#add2').val())
