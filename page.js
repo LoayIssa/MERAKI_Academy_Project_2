@@ -211,6 +211,7 @@ $('.login').append('<button  type="submit" class="registerbtn">Login </button>')
 
 }
 register()
+
 $('.page3').hide()
 
 $("#contact").on("click", () => {

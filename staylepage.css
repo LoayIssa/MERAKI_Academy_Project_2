@@ -23,7 +23,6 @@ padding: 0;
 {
     overflow: hidden;  
     background-color: #1A2241; 
-    width: 90%;
     margin: auto;
 
 
@@ -294,6 +293,12 @@ margin-top: 100px;
     width: 45%;
     border-right: 1px solid #ddd;
 }
+.contact h2 , .contact p 
+{
+font-weight: bold;
+color: #F20544;
+
+}
 
 .register  , .login
 {
@@ -301,13 +306,24 @@ margin-top: 100px;
     margin-left: 20px;
 }
 
-.register input[type=text], input[type=password] {
+.register input[type=text] {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .register input[type=password]{
+
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
     background: #f1f1f1;
+
   }
 
   .register input[type=text]:focus, input[type=password]:focus {
@@ -638,6 +654,83 @@ margin-top: 100px;
     right: 0;
 
 }
+
+ /* start page3 */
+ .page3 
+ {
+    display: flex;
+    margin: 5% 0 0 5%;
+ }
+
+
+ .contact {
+    width: 48%;
+    border-right: 1px solid #ddd;
+ }
+ .contact h2 , .contact p 
+ {
+ font-weight: bold;
+
+ }
+
+ .register  , .login
+ {
+    width: 50%;
+    margin-left: 20px;
+ }
+
+ .register input[type=text] {
+    width: 94%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .register input[type=password]{
+
+    width: 85%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+  }
+
+  .register input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+
+  .register button , .login button  {
+
+    background-color: #202126;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px 0 0 5px;
+    width: 100px;
+    border-radius: 10px;
+    color: #F5F9FC;
+    text-align: center;
+    text-transform: capitalize;
+
+  }
+
+  .login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  
+
 }
 
 
