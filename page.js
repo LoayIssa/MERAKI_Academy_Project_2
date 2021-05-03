@@ -77,6 +77,7 @@ const image = ["./imag/hyundai.jpg" , "./imag/hyundai ioniq.jpg" , "./imag/2020 
 
 const cardCar = () => {
     $(".page2").show()
+    $('.select').show()
     $(".page2").html("")
 
     for(let i=0 ; i<carName.length ; i++){
@@ -224,8 +225,37 @@ $("#contact").on("click", () => {
 
 }); 
 
+/* end  create page 3 login */ 
 
-/* end create page 3 login */ 
+/* start create page 4 addCar */ 
+
+$("#addCar").on("click", () => {
+    $(".page2").hide()
+    $('.select').hide()
+    $('.page4').append('<div class="addCar"></div>') 
+    $('.addCar').append('<input type="text" placeholder="carName" id="add1" >') 
+    $('.addCar').append('<input type="text" placeholder="cardate" id="add2" >') 
+    $('.addCar').append('<input type="text" placeholder="carcolor" id="add3" >') 
+    $('.addCar').append('<input type="text" placeholder="imag" id="add4" >') 
+    $('.addCar').append('<button  class="AddInfo" onclick = "AddCar()" >add car information </button>') 
+
+
+
+}); 
+const AddCar = ()=> {
+    carName.push($('#add1').val())
+    carDate.push($('#add2').val())
+    carClore.push($('#add3').val())
+    image.push($('#add4').val())
+    $('.addCar').remove()
+    cardCar()
+
+    
+}
+
+
+
+/* end create page 3 page 4 addCar */ 
 
 
   /* end fun */
