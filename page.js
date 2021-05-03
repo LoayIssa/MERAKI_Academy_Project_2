@@ -239,9 +239,8 @@ $("#addCar").on("click", () => {
     $('.addCar').append('<input type="text" placeholder="imag" id="add4" >') 
     $('.addCar').append('<button  class="AddInfo" onclick = "AddCar()" >add car information </button>') 
 
-
-
-}); 
+   }); 
+   
 const AddCar = ()=> {
     carName.push($('#add1').val())
     carDate.push($('#add2').val())

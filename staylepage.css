@@ -185,7 +185,8 @@ margin-top: 100px;
     text-transform: lowercase;
 }
 
-.info button {
+.info button 
+{
 
     background-color:#1A2241 ;
     cursor: pointer;
@@ -235,6 +236,23 @@ margin-top: 100px;
 
 
 }
+
+.select #addCar
+{
+
+    background-color: #1A2241;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid #77A0EE;
+    width: 130px;
+    border-radius: 10px;
+    color: #F5F9FC;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
 
 /*start slaider imag */
 
