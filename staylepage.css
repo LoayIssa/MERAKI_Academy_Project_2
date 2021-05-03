@@ -957,7 +957,12 @@ color: #1A2241;
     width: 85%;
     position: relative;
     bottom: 180px;
-    height: 100px}
+    height: 100px;
+    margin-left: 20px;
+ }
+
+
+    
 
 
  .imaSla .slaider p
@@ -970,10 +975,11 @@ color: #1A2241;
    
  }
  .imaSla .imag {
-    width: 90%;
-    margin-top: 0px ; 
-
+    width: 85%;
+    margin: 40px 0 0 60px;
  }
+
+ 
 
  .imaSla .imag img 
  {
@@ -1000,7 +1006,7 @@ color: #1A2241;
     text-transform: capitalize;
     position: relative;
     bottom: 200px;
-    margin-left: 100px;
+    margin-left: 30px;
 
 }
 .buton #carShow:hover {
@@ -1010,9 +1016,9 @@ color: #1A2241;
 
 .page2{
     display: grid;
-    grid-template-columns: 310px;
-    grid-template-rows: 340px;
-    margin: 0px 0 0 50px;
+    grid-template-columns: 300px;
+    grid-template-rows: 350px;
+    margin-left: 25px;
 
  }
  .ch {
@@ -1095,7 +1101,7 @@ color: #1A2241;
     color: #F5F9FC;
     text-align: center;
     text-transform: capitalize;
-}
+ }
 
 
 
